@@ -1,0 +1,349 @@
+#############################################################################################################
+################################BY:ESZA/KHAYEEL/PAPI:RE/AVSGAMER#############################################
+#############################################################################################################
+
+Legends(What do they mean??):
+    Weap1 - Weapon 1 or the weapon you start with on loading into a fight.
+    Weap2 - Weapon 2, subweapon.
+    Disck - Disc
+    Pndnt - Pendant
+    Helmt - Helmet
+    Armor - Armor
+    Boots - Boots/Greaves
+    Glovs - Gloves/Bracers
+    MinPA - Minimum 'Physical' Attack
+    MaxPA - Maximum 'Physical' Attack
+    Agilt - Agility
+        1 Agility = 0.9MinPA & 0.076%CRate
+        An Agility affix on a level 100 gear in the current patch has
+        around 40-50 Agility points which as a whole translates to about
+        = 90% of half of a MinPA affix and half of a CRate affix.
+        # Martial Arts Talents have bonuses relying on other stats;
+        # 300(upper limit increases as martial art level goes up)
+        # of Agility on Stonesplit Strength path's Snowparting Blade
+        # gives 79.2 MinPA.
+        # Applies only when that Martial Art is equipped and met
+        # requirements.
+    Momen - Momentum
+        1 Momentum = 0.9MaxPA & 0.038%A
+    Boddy - Body
+        1 Body = 60HP, if Stonesplit Might(+MoreHP+MaxPA)
+    Power - Power
+        1 Power = ?MinPA and ?MaxPA, if Bellstrike Umbra(+ARate+MaxPA)
+    Defns - Defense
+        1 Defense = 17MaxHP & 0.5PhysD
+    PRate - Precision Rate
+    ARate - Affinity Rate
+    CRate - Critical Rate
+    My.S% - Mystic Skill Damage Boost
+    Boss% - Damage Againsts Boss Units Boost
+    Plyr% - Damage Againsts Player Units Boost
+    AllMA - All Martial Arts Boost
+    We.T% - Weapon Type Boost
+    PhysD - Physical Defense
+    MaxHP - Max Health Points
+    D.CRa - Direct Critical Rate
+    D.ARa - Direct Affinity Rate
+
+Looks like base stats without Gears or Innerways which are categorically 'modular' for CRate and ARate are in
+the ratio of 2:1.
+
+[MinPA/Crit Build] Prioritize 100%PRate and correct ratio of CRate:ARate(4:1)
+Weap1   Weap2   Disck   Pndnt   Helmt   Armor   Boots   Glovs
+MinPA   MinPA   MinPA   MinPA   Power   Power   Power   Power <-- All Power stats from Helmet/Armor/Boots/Glovs
+MinPA   MinPA   MinPA   MinPA   MinPA   MinPA   MinPA   MinPA <-- can be Agility or PRate instead but prioritize
+Agilt   Agilt   Agilt   Agilt   Agilt   Agilt   Agilt   Agilt <-- in that order.
+We.T%   PRate   PRate   PRate   Mys.S   Mys.S   Boss%   Boss%
+Power   Power   AllMA   AllMA   Power   Power   Power   Power
+
+[MaxPA/Aff Build] Prioritize 100%PRate and correct ratio of CRate:ARate(3:2)
+Weap1   Weap2   Disck   Pndnt   Helmt   Armor   Boots   Glovs
+MaxPA   MaxPA   MaxPA   MaxPA   Power   Power   Power   Power <-- All Power stats from Helmet/Armor/Boots/Glovs
+MaxPA   MaxPA   MaxPA   MaxPA   MaxPA   MaxPA   MaxPA   MaxPA <-- can be Momentum or PRate instead but prioritize
+Momen   Momen   Momen   Momen   Momen   Momen   Momen   Momen <-- in that order; Power>Momentum>PRate.
+We.T%   PRate   PRate   PRate   Mys.S   Mys.S   Boss%   Boss%
+Power   Power   AllMA   AllMA   Power   Power   Power   Power
+
+[Notes]
+Base affix can be gotten again while rolling for the other affixes.
+It is possible to have 3x Critical Rate Affixes in one gear.
+How? Base affix is Critical Rate, then you roll all the other
+affixes at the same time in one go to bypass the restriction of
+having rolled the same stat already. Not sure if the previous
+statement/functionality is a bug or what.
+When taking into account the cost of affixing, like scrapping
+a gear or resetting them(which doesn't refund the cost)
+the moment it rolls an unwanted stat, the build tables showed here
+are still applicable. This is not a rigid guide that everything
+should be exactly as stated since it's random what configuration
+of stats we'll end up getting in the gears. Adjust accordingly.
+The video in the YouTube link below explains why other path's
+attribute minimum attack stat is better your own path's attribute
+minimum attack stat: for when you have to decide on them.
+https://www.youtube.com/watch?v=s_kzBwJokcs&t=36s
+Ideally only replace the Power Stats in the Build tables for those.
+
+
+[When hunting for heirloom gears]
+Once the gear is relayed, the affix stats' ceiling for value/amount
+becomes the same for all affixes. So it doesn't matter what rarity
+the affix was before, you can just raise it via modulating stones
+upto a cap of 97% of a non-relayed gear's cap. Using relayed gears
+is just about 2.7% weaker than a truly maxed out gear native to
+that tier. The kind of stats combination itself matters more than
+a all affixes max-value-tuned native gear with even just 1 wrong
+stat affixed. This means we don't need to use Gold Tuners/Shells
+everytime, specially when the gear is soon to be relayed.
+
+[Final Critical & Affinity Rate]
+In the main menu go to Develop(currently a Book Behind a Sword
+Graphic Indicator/Icon)->Details(Right side's rectangular button)
+Under Attributes->Combat Attributes->AttributeToCheckCategory.
+[100/80/20Goal](PRate>CRate>0-ARate) if Critical Build
+[100/60/40Goal](PRate>0-CRate>ARate) if Affinity Build
+Stacking too much CRate and ARate affixes can be a waste of affix
+slots because of how the Final Critical & Affinity Rates are
+calculated. You don't need a total of 80% or higher of Critical Rate
+affixes to achieve 80% CRate in the Final Rates IF you have
+100% Precision Rate. Because of how the 'Attack Types' work;
+Normal Attacks which has a chance to be an Abrasion or Affinity or
+Critical or Precision where Precision Hits is always either
+Critical or Affinity. We'll just need the right values of CRate to
+ARate ratio(4:1=80:20 if Crit Build) IF we are guaranteed Precision
+Type Attacks everytime from having a 100% PRate. Don't forget that
+your Total PRate is reduced by a stat called 'Resistance' which is
+right now 85% if your hitting a target that is level 81 or higher.
+So it makes sense to stack up as much PRate while only keeping the
+correct ratio of CRate to ARate.
+If you have 80% or capped CRate but in the Final Rates it shows up
+lower than 80% when you have 100% PRate, that means that your Affinity
+rate is below the cap of 40% and higher than 20%, because of that
+it scaled down your CRate to fit within the attacks' 'wholesomeness'
+of 1(100%) attack.
+[80%CRate+25%ARate=105%]->Scaled/Transfigured into 100%.
+Giving priority to preserve the not yet capped Affinity Rate as
+within 'legal values'.
+
+[CRate & ARate Calculations]
+Given we have 8 Agilt stats which would translate to around
+32% CRate in this patch. To make that 32% CRate, which does not include
+other sources of CRate as just for an example, translate into 80%.
+25% of that 32% is what we need as our upper limit for our ARate or
+lower. Why 25%? using algebra we can see 32% as 80% and the ? as 20%.
+Get the factor; 20%/80% = 1/4th which is 0.25 or 25% in decimal or %.
+The amount of ARate we should have should not exceed 8% if we are to
+couple that with a 32% CRate and want to end up with 80%CRate and
+20%ARate for our Precision Hits. But that is just from the Agilt
+stats/affixes of our gears so we need to take into account the other
+sources of CRate and base ARate too when fine-tuning for 100/80/20
+Final Rates of a Critical Build or the other one; 100/60/40 for Affinity
+Build. Count all Affinity Rate, Critical Rate, and Precision Rate from
+your Basic Talents which you get for submitting Oddities as a 'Base'
+Add to that your World Level Bonuses which right now is only 17.8%PRate.
+The result of that is your 'Base Attack Type Rates' before Gears,
+InnerWays and Rates against same-level or other players scaling comes in.
+
+Another Example Scenario of the Final Rates Calculation;
+12% CRate and 2% ARate
+12+2=14
+12/14=6/7 and 2/14=1/7
+6/7=85.71% CR and 1/7=14.29% AR
+Capping comes after above(scaling with the priority to preserve not yet
+capped stat). Overflow percentages from capped stat gets transferred to
+the other stat if you have 100%PRate since precision hits can only be
+either Critical or Affinity.
+12%CRate and 2%ARate gets translated into Final Rates: 80%CRate & 20%ARate
+of a Precision Hit.
+
+[Bow+Ring Set]
+Bow Set Bonus is half of what an affix would give assuming same level/tiers;
+Affinity/Critical/Precision. Best choice would be Precision.
+You can change it whichever according to your stat adjustment needs though.
+Precision is just more viable long term because of that 'Resistance'.
+If you're building non-precision build, how are you even getting Abrasion
+Rates? Abrasion is a ?gimped Normal Attack?. The Abrasion Rate is the rate
+that when a Abrasion is about to happen, it gets converted back to a Normal
+damage instead.
+
+You have options whether you want to fine-tune min-max by taking into account
+other sources of the rates.. Or just meeting the minimum with your other sources
+like 'from Oddities and World Level' and gears only, makes it so that you can
+play around switching other innerways because you no longer need the stats
+from those, they would just be extras as you are really after the effects of
+the skill instead of the stats.
+Since InnerWays give the right stat bonuses mostly for their corresponding
+Martial Path or intended use.
+
+D.CRa and D.ARa is added on top of your capped/uncapped rates and unaffected
+by resistances, so you can theoretically get
+100% Critical Rate(20%D.CRa+80%CappedCRate) or
+100% Affinity Rate(60%D.ARa+40%CappedARate).
+
+[In the current patch - 11-10-2026]
+-Each PRate affix is around 10%
+-Each ARate affix is around 5%
+-Each CRate affix is around 10%
+-Each Agilt affix translates to around 4% CRate, 40-50 Agilt.
+-Bonus from World Level 18: 17.8% PRate
+-Current Oddity Bonus from PRate Nodes: 16.5% PRate
+-Current Oddity Bonus from ARate Nodes: 12% ARate
+-Current Oddity Bonus from CRate Nodes: 24% CRate
+-Current Oddity Bonus from MStat Nodes: 23 Agility and Momentum, etc.
+the line above translating to 1.748% CRate & 0.874% ARate.
+
+-54.0514% of ARate is your 'ARate against same level opponents & Other Players'.
+Normally high risk means high reward but Affinity Damage Boost is 135% while
+Critical Damage Boost is 150%. Critical also has a higher trigger rate ceiling.
+Getting 100% Affinity Rate which doesn't apply to Player(PvP) Targets means having
+100% Precision Rate + 40% Affinity Rate as Final Rate AND 60% DIRECT AFFINITY RATE
+Currently impossible in this patch and that only applies to non-player units.
+They recently just removed Mininum <Path> Attack from the affix results so there
+are more sources/affix of Max Attack Stats for a Affinity Build, there's that
+for MaxPA/Affinity Builds.
+
+-54.0566% of CRate is your 'CRate against same level opponents & Other Players'.
+
+-77.8352% of PRate is your 'PRate against same level opponents & Other Players'.
+
+[General Use InnerWays with Relevant Rate Bonuses]
+-CRate-
+-PRate-
+Evasive Charge      T2 - 7.8% PRate
+Bitter Seasons      T2 - 7.8% PRate
+-ARate
+-D.CRa-
+Morale Chant        T5 - 4.6% D.CRa
+-D.ARa-
+-CDmgBonus-
+Fivefold Bleed      T5 - 3.5% Critical Damage Bonus
+-Defense-
+Steadfast Stance    T2 - Defense Build
+Steadfast Stance    T5 - Defense Build
+Sandswirl Tail      T2 - Phys Def Stat                  - Stick only. No practical use in combat.
+                                                        - Fish Movement InnerWay for Hexi.
+Sandswirl Tail      T5 - Phys Dmg Redux %
+Wind Beneath Wings  T2 - MaxHP              - Usage: Jump -> Dash = Movespeed on landing.
+                                            - I don't know if it works in GvG.
+                                            - Doesn't work in Arena is stated.
+Wind Beneath Wings  T5 - Phys Dmg Redux %
+Evening Snow        T2 - MaxHP              - HP Regen on a 2.5 Minutes cooldown.
+Evening Snow        T5 - Phys Resistance
+
+[Path Innerways with Relevant Rate Bonuses]
+-PRate-
+Gourd Toss          T2 - 8.7% PRate
+# These 2 Below would look nice on a Bamboo Dust Build.
+# Elaboration: Breaking Point is a bonus to damage done on enemy when it is exhausted
+# or in other words Qi Depletion State, Dust has greater Qi Breaking than most paths,
+# also why I call it the Debuffer Build being AoE as well + SoulBreak.
+Breaking Point      T2 - 8.7% PRate
+Breaking Point      T5 - 4.1% D.CRa
+Song Of Tang        T2 - 8.7% PRate
+Song Of Tang        T5 - 4%   Critical Damage Bonus - For Martial Art Skill Spamming Paths.
+-CRate-
+Steadfast Devotion  T2 - 8.7% CRate
+Steadfast Devotion  T5 - 4%   Critical Damage Bonus
+Exquisite Scenery   T2 - 9.7% CRate
+Exquisite Scenery   T5 - 4.4% Critical Damage Bonus
+Esoteric Revival    T2 - 8.7% CRate                 - Healing/Revival Fan
+Skyspeak            T2 - 8.7% CRate
+Sky Gripped         T2 - 8.7% CRate
+Sky Gripped         T5 - 4%   Critical Damage Bonus - For Skygrasp Rope, viable to hybrid with Heng.
+                                                    - 10% HP Damage Bonus from 15 seconds debuff on target.
+-ARate-
+Battle Anthem       T2 - 3.9% ARate
+Battle Anthem       T5 - 5.2% Affinity Damage Bonus
+Wolfchaser's Art    T2 - 3.9% ARate
+Wolfchaser's Art    T5 - 5.2% Affinity Damage Bonus
+-Defense-
+Trapped Beast       T2 - MaxHP
+Trapped Beast       T5 - Phys Defense
+
+#############################################################################################################
+#################################################END#########################################################
+#############################################################################################################
+
+
+#############################################################################################################
+############################################ForMyOwnGears####################################################
+#############################################################################################################
+
+[Min/Crit Build] Prioritize 100%PRate and correct ratio of CRate:ARate(4:1)
+Weap1   Weap2   Disck   Pndnt   Helmt   Armor   Boots   Glovs
+MinPA   MinPA   MinPA   MinPA   PRate   PRate   PRate   PRate <- In this row PRate interchangeable w/ last row
+MinPA   MinPA   MinPA   MinPA   MinPA   MinPA   MinPA   MinPA
+Agilt   Agilt   Agilt   Agilt   Agilt   Agilt   Agilt   Agilt
+PRate   PRate   PRate   PRate   Mys.S   Mys.S   Boss%   Boss%
+Power   Power   AllMA   AllMA   PRate   PRate   PRate   PRate <- PRate in this row can be Power
+
+[In the current patch - 11-10-2026]
+-Each PRate affix is around 10%
+-Each ARate affix is around 5%
+-Each CRate affix is around 10%
+-Each Agilt affix translates to around 4% CRate, 40-50 Agilt.
+-Bonus from World Level 18: 17.8% PRate
+-Current Oddity Bonus from PRate Nodes: 16.5% PRate
+-Current Oddity Bonus from ARate Nodes: 12% ARate
+-Current Oddity Bonus from CRate Nodes: 24% CRate
+-Current Oddity Bonus from MStat Nodes: 23 Agility and Momentum, etc.
+the line above translating to 1.748% CRate & 0.874% ARate.
+
+-77.8352% of PRate is your 'PRate against same level opponents & Other Players'.
+
+-54.0514% of ARate is your 'ARate against same level opponents & Other Players'.
+Normally high risk means high reward but Affinity Damage Boost is 135% while
+Critical Damage Boost is 150%. Critical also has a higher trigger rate ceiling.
+Getting 100% Affinity Rate which doesn't apply to Player(PvP) Targets means having
+100% Precision Rate + 40% Affinity Rate as Final Rate AND 60% DIRECT AFFINITY RATE
+Currently impossible in this patch and that only applies to non-player units.
+They recently just removed Mininum <Path> Attack from the affix results so there
+are more sources/affix of Max Attack Stats for a Affinity Build, there's that
+for MaxPA/Affinity Builds.
+
+-54.0566% of CRate is your 'CRate against same level opponents & Other Players'.
+
+My Current Base Rates:
+34.3%PRate(WorldLevelBonus+Oddities)
+25.748%CRate(WorldLevelBonus+Oddities)+12.244(FiveAttributesBase)=37.992%CRate
+12.874%ARate(WorldLevelBonus+Oddities)+6.122(FiveAttributesBase)=18.996%ARate
+
+How much of each rate I need to get from Gears for my MinBuild:
+100%PRate   -> about 10 PRate affixes. Though I currently only have 3 PRate affixes across all my
+            -> equipped gears and yet I am able to achieve this count of 133%Prate...
+            -> I also checked my damage counter colors against level 100 NPC Targets with this
+            -> 133%PRate and it seems like there is no such thing as 'Resistance' at all in
+            -> calculations? because all my attacks are back to back Critical or Affinity...
+            -> Even against players in 1v1 Arena...
+            -> Seems like we really only need 100%PRate from other sources to effectively get a
+            -> patch's 100%PRate against level 81 and above targets because of other sources of more
+            -> PRate as the World Level increases and More Oddity/BasicTalents gets added to offset
+            -> the rate change?
+(Base*2)%CRate -> 8 Agilt affixes are enough.
+(keep below 1.004)%ARate -> essentially none affinity rates or momentum stat at all from gears, innerways,
+                         -> or even future Oddity/BasicTalents that would add more ARate to make it go over
+                         -> 20% as base/innate since that would complicate the CRate tuning by having fix the
+                         -> ratios. I will need to check my Affinity Rate again once I have lost all affinity
+                         -> rates from gears, innerways and possible martial art talents.
+
+My Current Rates:
+133.9%(100%) Pr
+152.38%(80%) Cr
+51%(27.6%) Ar
+FinalRates: 72.45%CRate + 27.55%ARate
+
+[My Character's Stats Calculations 11-10-2026 Gears]
+My Current CRate Gears' Affixes: (54Ag)(9.6CRate)(Heng) + (52Ag)(9.5CRate)(Disc)
++ (52Ag)(9.4CRate)(Pendant) + 18.3CRate(Helmet) + 19.2CRate(Armor) + 10.4CRate(Greaves)
++ 8.9CRate(Bracers) = 152.38%-85.3%(From CRate Specific Stats Only.)=67.08%-24%(OdditiesNotIncludingBonusAgi)=43.08%(Agi from Gears and Talents)
+43.08%-12.008%(AgiFromGears)=31.072%-1.748%(AgiFromOdditiesTalents)=29.324%
+29.324% from Martial Art Path Talents and Innerways.
+Innnerways = 8.7%
+29.324%-8.7%=20.624%
+Martial Path bonus?(Only Equipped Ones takes effect GLOBALLY, not 'only currently using weapon bound'.) = 9.1%CRate
+20.624%-9.1%=11.524%
+Where is the other 11.524% CRate coming from?? LOL Maybe from the 5 Main Attributes' base stats(Agility)? <- Yes?
+If above statement is true then equipping gears that don't have any Agility and CRate Affixes in them should show
+my 5 Main Attributes approximately being (?-181)*0.076%=11.524% where '?' is my current total Agility after adding in OddityTalents and Gear Affix Agilities.
+I changed gears a little bit but my Total Agility from 5 Main Attributes List now is 345, 181 of that comes from Gear Affixes and BasicTalents/Oddities.
+345-181=164! <- that explains why there seemed to be a doubling factor! 164*0.076%=12.464% it's within that ball-park number of the missing 11.524%.
+Not sure if that's really innate/base or actually coming from other sources that I may have missed but it checks out. So all accounted for!
