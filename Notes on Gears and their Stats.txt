@@ -1,6 +1,6 @@
-#############################################################################################################
-################################BY:ESZA/KHAYEEL/PAPI:RE/AVSGAMER#############################################
-#############################################################################################################
+###########################################################################################################
+################################BY:ESZA/KHAYEEL/PAPI:RE/AVSGAMER###########################################
+###########################################################################################################
 
 Legends(What do they mean??):
     Weap1 - Weapon 1 or the weapon you start with on loading into a fight.
@@ -45,24 +45,24 @@ Legends(What do they mean??):
     D.CRa - Direct Critical Rate
     D.ARa - Direct Affinity Rate
 
-Looks like base stats without Gears or Innerways which are categorically 'modular' for CRate and ARate are in
-the ratio of 2:1. We.T% Affix stat should be your main damage dealing weapon. If using both equipped weapons
-are used relatively equally in frequency or damage output then you can have it on both.
+Looks like base stats without Gears or Innerways which are categorically 'modular' for CRate and ARate are
+in the ratio of 2:1. We.T% Affix stat should be your main damage dealing weapon. If using both equipped
+weapons are used relatively equally in frequency or damage output then you can have it on both.
 
 [MinPA/Crit Build] Prioritize 100%PRate and correct ratio of CRate:ARate(4:1)
 Weap1   Weap2   Disck   Pndnt   Helmt   Armor   Boots   Glovs
-MinPA   MinPA   MinPA   MinPA   Power   Power   Power   Power <-- All Power stats from Helmet/Armor/Boots/Glovs
-MinPA   MinPA   MinPA   MinPA   MinPA   MinPA   MinPA   MinPA <-- can be Agility or PRate instead but prioritize
-Agilt   Agilt   Agilt   Agilt   Agilt   Agilt   Agilt   Agilt <-- in that order.
-We.T%   PRate   PRate   PRate   Mys.S   Mys.S   Boss%   Boss%
+MinPA   MinPA   MinPA   MinPA   Power   Power   Power   Power <-- All Power stats from
+MinPA   MinPA   MinPA   MinPA   MinPA   MinPA   MinPA   MinPA <-- Helmet/Armor/Boots/Glovs can be Agility
+Agilt   Agilt   Agilt   Agilt   Agilt   Agilt   Agilt   Agilt <-- or PRate instead but prioritize
+We.T%   PRate   PRate   PRate   Mys.S   Mys.S   Boss%   Boss% <-- in that order.
 Power   Power   AllMA   AllMA   Power   Power   Power   Power
 
 [MaxPA/Aff Build] Prioritize 100%PRate and correct ratio of CRate:ARate(3:2)
 Weap1   Weap2   Disck   Pndnt   Helmt   Armor   Boots   Glovs
-MaxPA   MaxPA   MaxPA   MaxPA   Power   Power   Power   Power <-- All Power stats from Helmet/Armor/Boots/Glovs
-MaxPA   MaxPA   MaxPA   MaxPA   MaxPA   MaxPA   MaxPA   MaxPA <-- can be Momentum or PRate instead but prioritize
-Momen   Momen   Momen   Momen   Momen   Momen   Momen   Momen <-- in that order; Power>Momentum>PRate.
-We.T%   PRate   PRate   PRate   Mys.S   Mys.S   Boss%   Boss%
+MaxPA   MaxPA   MaxPA   MaxPA   Power   Power   Power   Power <-- All Power stats from
+MaxPA   MaxPA   MaxPA   MaxPA   MaxPA   MaxPA   MaxPA   MaxPA <-- Helmet/Armor/Boots/Glovs can be Momentum
+Momen   Momen   Momen   Momen   Momen   Momen   Momen   Momen <-- or PRate instead but prioritizein that
+We.T%   PRate   PRate   PRate   Mys.S   Mys.S   Boss%   Boss% <-- order; Power>Momentum>PRate.
 Power   Power   AllMA   AllMA   Power   Power   Power   Power
 
 [Notes]
@@ -260,22 +260,22 @@ Wolfchaser's Art    T5 - 5.2% Affinity Damage Bonus
 Trapped Beast       T2 - MaxHP
 Trapped Beast       T5 - Phys Defense
 
-#############################################################################################################
-#################################################END#########################################################
-#############################################################################################################
+###########################################################################################################
+#################################################END#######################################################
+###########################################################################################################
 
 
-#############################################################################################################
-############################################ForMyOwnGears####################################################
-#############################################################################################################
+###########################################################################################################
+############################################ForMyOwnGears##################################################
+###########################################################################################################
 
 [Min/Crit Build] Prioritize 100%PRate and correct ratio of CRate:ARate(4:1)
 Weap1   Weap2   Disck   Pndnt   Helmt   Armor   Boots   Glovs
-MinPA   MinPA   MinPA   MinPA   PRate   PRate   PRate   PRate <- In this row PRate interchangeable w/ last row
-MinPA   MinPA   MinPA   MinPA   MinPA   MinPA   MinPA   MinPA
-Agilt   Agilt   Agilt   Agilt   Agilt   Agilt   Agilt   Agilt
-PRate   PRate   PRate   PRate   Mys.S   Mys.S   Boss%   Boss%
-Power   Power   AllMA   AllMA   PRate   PRate   PRate   PRate <- PRate in this row can be Power
+MinPA   MinPA   MinPA   MinPA   Power   Power   Power   Power <-- All Power stats from
+MinPA   MinPA   MinPA   MinPA   MinPA   MinPA   MinPA   MinPA <-- Helmet/Armor/Boots/Glovs can be Agility
+Agilt   Agilt   Agilt   Agilt   Agilt   Agilt   Agilt   Agilt <-- or PRate instead but prioritize
+We.T%   PRate   PRate   PRate   Mys.S   Mys.S   Boss%   Boss% <-- in that order.
+Power   Power   AllMA   AllMA   Power   Power   Power   Power
 
 [In the current patch - 11-10-2026]
 -Each PRate affix is around 10%
@@ -322,9 +322,9 @@ How much of each rate I need to get from Gears for my MinBuild:
 (Base*2)%CRate -> 8 Agilt affixes are enough.
 (keep below 1.004)%ARate -> essentially none affinity rates or momentum stat at all from gears, innerways,
                          -> or even future Oddity/BasicTalents that would add more ARate to make it go over
-                         -> 20% as base/innate since that would complicate the CRate tuning by having fix the
-                         -> ratios. I will need to check my Affinity Rate again once I have lost all affinity
-                         -> rates from gears, innerways and possible martial art talents.
+                         -> 20% as base/innate since that would complicate the CRate tuning by having fix
+                         -> the ratios. I will need to check my Affinity Rate again once I have lost all
+                         -> affinity rates from gears, innerways and possible martial art talents.
 
 My Current Rates:
 133.9%(100%) Pr
@@ -335,16 +335,20 @@ FinalRates: 72.45%CRate + 27.55%ARate
 [My Character's Stats Calculations 11-10-2026 Gears]
 My Current CRate Gears' Affixes: (54Ag)(9.6CRate)(Heng) + (52Ag)(9.5CRate)(Disc)
 + (52Ag)(9.4CRate)(Pendant) + 18.3CRate(Helmet) + 19.2CRate(Armor) + 10.4CRate(Greaves)
-+ 8.9CRate(Bracers) = 152.38%-85.3%(From CRate Specific Stats Only.)=67.08%-24%(OdditiesNotIncludingBonusAgi)=43.08%(Agi from Gears and Talents)
++ 8.9CRate(Bracers) = 152.38%-85.3%(From CRate Specific Stats Only.)=67.08%
+67.08%-24%(OdditiesNotIncludingBonusAgi)=43.08%(Agi from Gears and Talents)
 43.08%-12.008%(AgiFromGears)=31.072%-1.748%(AgiFromOdditiesTalents)=29.324%
 29.324% from Martial Art Path Talents and Innerways.
 Innnerways = 8.7%
 29.324%-8.7%=20.624%
-Martial Path bonus?(Only Equipped Ones takes effect GLOBALLY, not 'only currently using weapon bound'.) = 9.1%CRate
+Martial Path Talent = 9.1%CRate
 20.624%-9.1%=11.524%
-Where is the other 11.524% CRate coming from?? LOL Maybe from the 5 Main Attributes' base stats(Agility)? <- Yes?
-If above statement is true then equipping gears that don't have any Agility and CRate Affixes in them should show
-my 5 Main Attributes approximately being (?-181)*0.076%=11.524% where '?' is my current total Agility after adding in OddityTalents and Gear Affix Agilities.
-I changed gears a little bit but my Total Agility from 5 Main Attributes List now is 345, 181 of that comes from Gear Affixes and BasicTalents/Oddities.
-345-181=164! <- that explains why there seemed to be a doubling factor! 164*0.076%=12.464% it's within that ball-park number of the missing 11.524%.
-Not sure if that's really innate/base or actually coming from other sources that I may have missed but it checks out. So all accounted for!
+Where is the other 11.524% CRate coming from? LOL Maybe from the 5 Main Attributes' Agility? <- Yes?
+If above statement is true then equipping gears that don't have any Agility and CRate Affixes in them should
+show my 5 Main Attributes' Agility as approximately being (?-181)*0.076%=11.524% where '?' is my current
+total Agility after adding in OddityTalents and Gear Affix Agilities.
+I changed gears a little bit and now my Total Agility from 5 Main Attributes List is 345, 181 of that comes
+from Gear Affixes and BasicTalents/Oddities. 345-181=164! <- that explains why there seemed to be a
+doubling factor! 164*0.076%=12.464% it's within that ball-park number of the missing 11.524%. Not sure if
+that's really innate/base or actually coming from other sources that I may have missed but it checks out.
+So all accounted for!
