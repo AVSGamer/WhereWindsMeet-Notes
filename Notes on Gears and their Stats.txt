@@ -46,7 +46,8 @@ Legends(What do they mean??):
     D.ARa - Direct Affinity Rate
 
 Looks like base stats without Gears or Innerways which are categorically 'modular' for CRate and ARate are in
-the ratio of 2:1.
+the ratio of 2:1. We.T% Affix stat should be your main damage dealing weapon. If using both equipped weapons
+are used relatively equally in frequency or damage output then you can have it on both.
 
 [MinPA/Crit Build] Prioritize 100%PRate and correct ratio of CRate:ARate(4:1)
 Weap1   Weap2   Disck   Pndnt   Helmt   Armor   Boots   Glovs
