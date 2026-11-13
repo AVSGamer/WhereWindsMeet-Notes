@@ -49,19 +49,19 @@ Looks like base stats without Gears or Innerways which are categorically 'modula
 in the ratio of 2:1. We.T% Affix stat should be your main damage dealing weapon. If using both equipped
 weapons are used relatively equally in frequency or damage output then you can have it on both.
 
-[MinPA/Crit Build] Prioritize 100%PRate and correct ratio of CRate:ARate(4:1)
+[MinPA/Crit Build] Prioritize 100%PRate and correct ratio of CRate:ARate(80%:0<20)
 Weap1   Weap2   Disck   Pndnt   Helmt   Armor   Boots   Glovs
 MinPA   MinPA   MinPA   MinPA   Power   Power   Power   Power <-- All Power stats from
 MinPA   MinPA   MinPA   MinPA   MinPA   MinPA   MinPA   MinPA <-- Helmet/Armor/Boots/Glovs can be Agility
-Agilt   Agilt   Agilt   Agilt   Agilt   Agilt   Agilt   Agilt <-- or PRate instead but prioritize
-We.T%   PRate   PRate   PRate   Mys.S   Mys.S   Boss%   Boss% <-- in that order.
-Power   Power   AllMA   AllMA   Power   Power   Power   Power
+Agilt   Agilt   Agilt   Agilt   Agilt   Agilt   Agilt   Agilt <-- or Cirtical instead but prioritize
+We.T%   PRate   PRate   PRate   Mys.S   Mys.S   Boss%   Boss% <-- in that order. Mostly just neeed 3 PRates
+Power   Power   AllMA   AllMA   Power   Power   Power   Power <-- for both Crit or Aff Builds.
 
 [MaxPA/Aff Build] Prioritize 100%PRate and correct ratio of CRate:ARate(3:2)
 Weap1   Weap2   Disck   Pndnt   Helmt   Armor   Boots   Glovs
 MaxPA   MaxPA   MaxPA   MaxPA   Power   Power   Power   Power <-- All Power stats from
 MaxPA   MaxPA   MaxPA   MaxPA   MaxPA   MaxPA   MaxPA   MaxPA <-- Helmet/Armor/Boots/Glovs can be Momentum
-Momen   Momen   Momen   Momen   Momen   Momen   Momen   Momen <-- or PRate instead but prioritizein that
+Momen   Momen   Momen   Momen   Momen   Momen   Momen   Momen <-- or Affinity instead but prioritize in that
 We.T%   PRate   PRate   PRate   Mys.S   Mys.S   Boss%   Boss% <-- order; Power>Momentum>PRate.
 Power   Power   AllMA   AllMA   Power   Power   Power   Power
 
@@ -97,6 +97,8 @@ stat affixed. This means we don't need to use Gold Tuners/Shells
 everytime, specially when the gear is soon to be relayed.
 
 [Final Critical & Affinity Rate]
+UPDATE! LMFAO! THIS SECTIONS WAS A MISTAKE BUT IT WAS SOMETHING,
+ALRIGHT! XD So we'll keep it here - 11-13-2026 LULZ
 In the main menu go to Develop(currently a Book Behind a Sword
 Graphic Indicator/Icon)->Details(Right side's rectangular button)
 Under Attributes->Combat Attributes->AttributeToCheckCategory.
@@ -124,6 +126,34 @@ of 1(100%) attack.
 [80%CRate+25%ARate=105%]->Scaled/Transfigured into 100%.
 Giving priority to preserve the not yet capped Affinity Rate as
 within 'legal values'.
+----------------11-13-2026
+Though above might seem clever it's not really that complex...
+At least not as complex what it really is when I found out...
+I've never seen a damage calculation like this although to be
+honest I haven't done much deep dive into game combat stats aside
+from LoL, Warframe and where it probably started; Ragnarok..
+So 'Precision Hits' which makes sense to mean your hits where
+'Precise' so congratulations; you've dealt a 'Normal Blow/Damage'.
+Those that aren't Precise have a chance to be 'Abrasions' instaed.
+Like a 'scratch' instead of a 'hit'. XD That explains why a earnable
+stat called Abrasion Rate is not the rate that you get more Abrasion Hits,
+but rather the chance that you're Abrasions end up becoming 'Normal Hits'
+instead. So disregard all the Ratio Talk about, I also updated the tables.
+With your Citical Rate and Affinity Rate combined in a 100% Precision Rate
+any leftover to fill that 'whole' of an Precision Hit becomes your Rate
+to deal a 'Normal Hit' instead. There is still scaling since the caps;
+80% + 40% don't really add up cleanly into 100% unless scaled. But,
+Basically not all Precision Hits are guaranteed to be only Critical
+or Affinty. I even tested if there was a chance to trigger both at the
+same time but there isn't. That would only happen if you've had enough of
+those rates to fill the 100%, aptly the 2 types; 100>80>20 and 100>60>40
+And I prefer the 100>60>40 ; Precision>Crit>Aff even if I am building
+MinPA since I welcome Power too. This allows for more flexibility and
+easier building via better chances at getting something useful as
+improvements come. Base Stat MinPA, then doesn't matter whether the
+substats are MinPA or MaxPA as long as we get the correct CRate, ARate
+and PRate Ratio. The watching out for better or closer towards our goal
+set of gears.
 
 [CRate & ARate Calculations]
 Given we have 8 Agilt stats which would translate to around
@@ -269,7 +299,7 @@ Trapped Beast       T5 - Phys Defense
 ############################################ForMyOwnGears##################################################
 ###########################################################################################################
 
-[Min/Crit Build] Prioritize 100%PRate and correct ratio of CRate:ARate(4:1)
+[Min/Crit Build] Prioritize 100%PRate and correct ratio of CRate:ARate(60%:40%)
 Weap1   Weap2   Disck   Pndnt   Helmt   Armor   Boots   Glovs
 MinPA   MinPA   MinPA   MinPA   Power   Power   Power   Power <-- All Power stats from
 MinPA   MinPA   MinPA   MinPA   MinPA   MinPA   MinPA   MinPA <-- Helmet/Armor/Boots/Glovs can be Agility
